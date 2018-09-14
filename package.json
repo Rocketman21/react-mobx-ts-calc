@@ -1,0 +1,46 @@
+{
+  "name": "my-webpack-config",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack-dev-server --env=development",
+    "prod": "cross-env webpack --env=production",
+    "server": "static dist",
+    "make-css": "tcm src"
+  },
+  "keywords": [],
+  "author": "Stanislav Suzdalev",
+  "license": "ISC",
+  "devDependencies": {
+    "autoprefixer": "9.0.1",
+    "clean-webpack-plugin": "0.1.19",
+    "cross-env": "5.2.0",
+    "css-loader": "1.0.0",
+    "html-webpack-plugin": "3.2.0",
+    "mini-css-extract-plugin": "0.4.1",
+    "node-static": "0.7.10",
+    "optimize-css-assets-webpack-plugin": "5.0.0",
+    "postcss-loader": "2.1.6",
+    "source-map-loader": "0.2.4",
+    "style-loader": "0.21.0",
+    "ts-loader": "5.1.0",
+    "typed-css-modules": "0.3.5",
+    "typed-css-modules-loader": "0.0.14",
+    "uglifyjs-webpack-plugin": "1.2.7",
+    "webpack": "4.16.2",
+    "webpack-cli": "3.1.0",
+    "webpack-dev-server": "3.1.5"
+  },
+  "dependencies": {
+    "@types/react": "16.4.13",
+    "@types/react-dom": "16.0.7",
+    "mobx": "^5.1.1",
+    "mobx-logger": "0.7.1",
+    "mobx-react": "^5.2.8",
+    "react": "16.4.1",
+    "react-app-rewire-mobx": "^1.0.9",
+    "react-dom": "16.4.1",
+    "typescript": "3.0.3"
+  }
+}
