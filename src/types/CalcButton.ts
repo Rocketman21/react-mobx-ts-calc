@@ -1,4 +1,4 @@
 export default interface CalcButton {
-	value: number,
+	value: number|string,
 	style?: object
 }
