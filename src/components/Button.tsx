@@ -5,6 +5,7 @@ import CalcButton from 'src/types/CalcButton';
 interface Props {
 	button: CalcButton,
 	onClick: Function,
+	className?: string
 }
 
 export default class Button extends React.Component<Props> {
@@ -15,8 +16,10 @@ export default class Button extends React.Component<Props> {
 	}
 
 	render() {
+		const {button, className} = this.props;
+
 		return (
-			<button className={calcButton} style={this.props.button.style} onClick={this.handleButtonClick}>
+			<button className={`${calcButton} ${className}`} style={button.style} onClick={this.handleButtonClick}>
 				{this.props.button.value}
 			</button>
 		)

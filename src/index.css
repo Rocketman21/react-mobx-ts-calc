@@ -62,3 +62,6 @@ html {
 .calc-functional-buttons .calc-button:active {
 	background: rgb(255, 196, 87);
 }
+.calc-current-operation {
+	background: rgb(255, 124, 36) !important;
+}

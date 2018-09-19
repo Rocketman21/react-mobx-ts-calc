@@ -1,4 +1,4 @@
-import * as React from 'react'
+import * as React from 'react';
 import Button from 'src/components/Button';
 import { calcNumpad } from 'src/index.css';
 import CalcButton from 'src/types/CalcButton';
